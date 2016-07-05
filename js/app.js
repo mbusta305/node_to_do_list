@@ -2,7 +2,7 @@
 //Solution: Add interactivity so user can manage daily task.
 
 var taskInput = document.getElementById("new-task");
-var addButton = document.getElementByTagName("button")[0];
+var addButton = document.getElementsByTagName("button")[0];
 var incompleteTaskHolder = document.getElementById("incomplete-tasks");
 var completedTasksHolder = document.getElementById("completed-tasks");
 
